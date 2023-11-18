@@ -1,0 +1,63 @@
+Start testing: Oct 23 22:06 EDT
+----------------------------------------------------------
+1/2 Testing: TestDeck
+1/2 Test: TestDeck
+Command: "/home/jibran/Desktop/DeckOfCards/build/test_deck"
+Directory: /home/jibran/Desktop/DeckOfCards/build
+"TestDeck" start time: Oct 23 22:06 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from DeckTest
+[ RUN      ] DeckTest.IsDeckSufficientTest
+[       OK ] DeckTest.IsDeckSufficientTest (0 ms)
+[ RUN      ] DeckTest.DealCardsTest
+[       OK ] DeckTest.DealCardsTest (0 ms)
+[ RUN      ] DeckTest.ShuffleCardsTest
+[       OK ] DeckTest.ShuffleCardsTest (0 ms)
+[----------] 3 tests from DeckTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"TestDeck" end time: Oct 23 22:06 EDT
+"TestDeck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/2 Testing: TestDealer
+2/2 Test: TestDealer
+Command: "/home/jibran/Desktop/DeckOfCards/build/test_dealer"
+Directory: /home/jibran/Desktop/DeckOfCards/build
+"TestDealer" start time: Oct 23 22:06 EDT
+Output:
+----------------------------------------------------------
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from PokerDealerTest
+[ RUN      ] PokerDealerTest.DealTest
+[       OK ] PokerDealerTest.DealTest (0 ms)
+[ RUN      ] PokerDealerTest.DealTestWithEmptyDeck
+[       OK ] PokerDealerTest.DealTestWithEmptyDeck (0 ms)
+[ RUN      ] PokerDealerTest.ShuffleForHandTest
+[       OK ] PokerDealerTest.ShuffleForHandTest (0 ms)
+[ RUN      ] PokerDealerTest.DealRoundTest
+[       OK ] PokerDealerTest.DealRoundTest (0 ms)
+[----------] 4 tests from PokerDealerTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (1 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"TestDealer" end time: Oct 23 22:06 EDT
+"TestDealer" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 23 22:06 EDT

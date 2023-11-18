@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test_dealer.dir/tests/test_dealer.cpp.o  -o test_dealer  -Wl,-Bstatic -lgtest -lgtest_main -Wl,-Bdynamic -lpthread 
